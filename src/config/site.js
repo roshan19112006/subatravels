@@ -6,12 +6,13 @@
 export const siteConfig = {
   name: "Suba Tours",
   tagline: "Explore More. Travel Better.",
-  supportingTagline: "Comfortable journeys, trusted service and premium travel experiences from Pondicherry.",
-  badge: "18+ YEARS OF TRUSTED TRAVEL SERVICE",
-  trustLine: "Comfortable Rides • Reliable Service • Memorable Journeys",
+  supportingTagline: "Rated #1 Best Travels & Taxi Service in Pondicherry. Premier Chennai to Pondicherry cabs, outstation tours, and self-drive rentals.",
+  badge: "18+ YEARS OF TRUSTED TRAVEL MASTERY • BEST TRAVELS IN PONDICHERRY",
+  trustLine: "Best Taxi Service in Pondicherry • Chennai ⇄ Pondicherry Cabs • 18+ Years Trusted",
   
   owner: "S. Thinagaran",
-  experience: "18+ Years",
+  role: "Proprietor & CEO",
+  experience: "18+ Years of Travel Mastery",
   email: "tthinagaran2@gmail.com",
   location: "Pondicherry / Puducherry, Tamil Nadu",
   
@@ -23,36 +24,36 @@ export const siteConfig = {
   
   seo: {
     home: {
-      title: "Suba Tours Pondicherry | Car Rental, Tempo Traveller & Self Drive",
-      description: "Suba Tours offers reliable travel services in Pondicherry including Tempo Traveller, Innova Crysta, Etios, Swift Dzire and self-drive cars for local and outstation travel."
+      title: "Suba Tours | Best Travels in Pondicherry | Best Taxi Service & Chennai Cabs",
+      description: "Suba Tours is rated the best travels and taxi service in Pondicherry. Specialist in Chennai to Pondicherry taxi, Chennai Airport drop, Innova Crysta, Tempo Traveller & self-drive rentals under CEO S. Thinagaran."
     },
     vehicles: {
-      title: "Car Rental & Tempo Traveller in Pondicherry | Suba Tours",
-      description: "Rent Tempo Traveller, Toyota Innova Crysta, Etios, and Swift Dzire in Pondicherry with professional drivers and well-maintained fleet."
+      title: "Best Taxi Service & Car Rental in Pondicherry | Tempo Traveller & Innova Crysta | Suba Tours",
+      description: "Book the best taxi service in Pondicherry with Toyota Innova Crysta, Tempo Traveller (12-20 seater), Etios, and Swift Dzire with experienced local chauffeurs."
     },
     selfDrive: {
-      title: "Self Drive Car Rental in Pondicherry | Suba Tours",
-      description: "Enjoy the freedom to explore Pondicherry and nearby destinations with flexible, well-maintained self-drive car options from Suba Tours."
+      title: "Best Self Drive Car Rental in Pondicherry | Hyundai Creta & i20 | Suba Tours",
+      description: "Rent top-rated self-drive cars in Pondicherry. Enjoy freedom to explore White Town, Auroville, and coastal beaches with transparent pricing from Suba Tours."
     },
     destinations: {
-      title: "Pondicherry Travel Destinations & Tours | Suba Tours",
-      description: "Explore popular tourist spots in Pondicherry, French Quarter heritage streets, and outstation circuits across Tamil Nadu & South India."
+      title: "Pondicherry Sightseeing Cabs & Chennai to Pondicherry Outstation Tours | Suba Tours",
+      description: "Explore top Pondicherry tourist spots, French Quarter heritage streets, and outstation taxi routes from Chennai to Pondicherry and across South India."
     },
     services: {
-      title: "Travel Services in Pondicherry | Suba Tours",
-      description: "Comprehensive travel solutions from Pondicherry including outstation trips, local sightseeing, corporate travel, family tours, and airport transfers."
+      title: "Best Travel Agency & Taxi Services in Pondicherry | Chennai Airport Transfers | Suba Tours",
+      description: "Full-service travel solutions in Pondicherry: Chennai to Pondicherry taxi, 24/7 airport drop, group tour coaches, and customized Tamil Nadu packages."
     },
     about: {
-      title: "About Suba Tours | 18+ Years of Travel Experience",
-      description: "Suba Tours is led by proprietor S. Thinagaran with 18+ years of dedicated travel expertise, dependable vehicles, and transparent service in Pondicherry."
+      title: "About Suba Tours | 18+ Years Mastery Under CEO S. Thinagaran | Pondicherry Travels",
+      description: "Discover Suba Tours, Pondicherry's leading travel company founded and led by CEO S. Thinagaran with 18+ years of dedicated travel excellence."
     },
     gallery: {
-      title: "Suba Tours Gallery | Real Fleet & Pondicherry Tour Photos",
+      title: "Suba Tours Gallery | Authentic Fleet & Pondicherry Travel Photos",
       description: "Explore authentic photos of Suba Tours vehicles including Toyota Innova Crysta, Tempo Traveller, self-drive cars, and Pondicherry travel moments."
     },
     contact: {
-      title: "Contact Suba Tours Pondicherry | Book Your Journey",
-      description: "Contact Suba Tours in Pondicherry for immediate vehicle quotes, customized tour itineraries, Tempo Traveller booking, and self-drive enquiries."
+      title: "Contact Suba Tours | Best Travels & Taxi Booking in Pondicherry",
+      description: "Get instant quotes for Pondicherry taxi service, Chennai to Pondicherry cab transfers, and Tempo Traveller group bookings."
     }
   },
 
@@ -72,32 +73,32 @@ export const siteConfig = {
   features: [
     {
       id: "exp",
-      title: "18+ Years Experience",
-      desc: "Experienced travel service you can trust.",
+      title: "Best Travels in Pondicherry",
+      desc: "18+ years of travel mastery led by CEO S. Thinagaran.",
       icon: "Award"
     },
     {
-      id: "comfort",
-      title: "Comfortable Vehicles",
-      desc: "Travel comfortably with well-maintained vehicles.",
+      id: "taxi",
+      title: "Top-Rated Taxi Service",
+      desc: "Clean, sanitized cabs with experienced punctual chauffeurs.",
       icon: "ShieldCheck"
     },
     {
-      id: "service",
-      title: "Professional Service",
-      desc: "Reliable service from enquiry to journey.",
-      icon: "UserCheck"
-    },
-    {
-      id: "flexible",
-      title: "Flexible Travel Options",
-      desc: "Choose the vehicle that fits your trip.",
+      id: "chennai",
+      title: "Chennai ⇄ Pondicherry Cabs",
+      desc: "24/7 doorstep pickup, ECR scenic rides & Chennai airport drop.",
       icon: "Compass"
     },
     {
+      id: "fleet",
+      title: "Innova & Tempo Traveller",
+      desc: "Executive 7-seater MPVs & 12-20 seater luxury tour coaches.",
+      icon: "UserCheck"
+    },
+    {
       id: "selfdrive",
-      title: "Self Drive Available",
-      desc: "Convenient self-driving options available.",
+      title: "Self Drive in Pondicherry",
+      desc: "Flexible, verified hatchbacks & SUVs to explore freely.",
       icon: "Key"
     }
   ],
@@ -304,6 +305,14 @@ export const siteConfig = {
   ],
 
   faqs: [
+    {
+      question: "Which is the best travels and taxi service in Pondicherry?",
+      answer: "Suba Tours is widely rated as the #1 best travels and taxi service in Pondicherry. Founded and managed under the leadership of CEO S. Thinagaran with 18+ years of industry mastery, Suba Tours provides pristine Toyota Innova Crysta, luxury Tempo Travellers (12-20 seater), Etios sedans, and verified self-drive cars with 24/7 on-time service."
+    },
+    {
+      question: "What is the best taxi service for Chennai to Pondicherry travel and vice versa?",
+      answer: "Suba Tours is the top specialist for Chennai to Pondicherry taxi and Pondicherry to Chennai Airport (MAA) pickup and drop. We provide doorstep pickup from anywhere in Chennai or Pondicherry, scenic ECR / GST highway travel, zero hidden tolls, sanitized AC cabs, and experienced highway chauffeurs."
+    },
     {
       question: "What services does Suba Tours provide in Pondicherry?",
       answer: "Suba Tours provides a complete range of travel solutions in Pondicherry, including Tempo Traveller rentals (12-20 seater), Toyota Innova Crysta rentals, Toyota Etios and Maruti Swift Dzire sedans, self-drive cars, local Pondicherry sightseeing tours, outstation travel across South India, and airport pickup/drop transfers."
