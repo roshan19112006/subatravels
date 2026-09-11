@@ -24,6 +24,7 @@ export default function Navbar({ onOpenEnquiry, currentPage, onNavigate }) {
     { label: 'Vehicles', page: 'vehicles', path: '/vehicles' },
     { label: 'Self Drive', page: 'self-drive', path: '/self-drive' },
     { label: 'Pondicherry', page: 'pondicherry', path: '/pondicherry' },
+    { label: 'Gallery', page: 'gallery', path: '/gallery' },
     { label: 'About', page: 'about', path: '/about' },
   ];
 

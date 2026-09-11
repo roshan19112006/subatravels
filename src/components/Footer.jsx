@@ -11,6 +11,7 @@ export default function Footer({ onOpenEnquiry, onNavigate }) {
     { label: 'Vehicles', page: 'vehicles' },
     { label: 'Self Drive', page: 'self-drive' },
     { label: 'Pondicherry Tours', page: 'pondicherry' },
+    { label: 'Visual Gallery', page: 'gallery' },
     { label: 'About Us', page: 'about' },
   ];
 

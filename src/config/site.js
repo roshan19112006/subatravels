@@ -46,6 +46,10 @@ export const siteConfig = {
       title: "About Suba Tours | 18+ Years of Travel Experience",
       description: "Suba Tours is led by proprietor S. Thinagaran with 18+ years of dedicated travel expertise, dependable vehicles, and transparent service in Pondicherry."
     },
+    gallery: {
+      title: "Suba Tours Gallery | Real Fleet & Pondicherry Tour Photos",
+      description: "Explore authentic photos of Suba Tours vehicles including Toyota Innova Crysta, Tempo Traveller, self-drive cars, and Pondicherry travel moments."
+    },
     contact: {
       title: "Contact Suba Tours Pondicherry | Book Your Journey",
       description: "Contact Suba Tours in Pondicherry for immediate vehicle quotes, customized tour itineraries, Tempo Traveller booking, and self-drive enquiries."
@@ -354,6 +358,163 @@ export const siteConfig = {
       step: "04",
       title: "Start Your Journey",
       desc: "Relax and enjoy comfortable, punctual, and safe travel with Suba Tours."
+    }
+  ],
+
+  gallery: [
+    {
+      id: "innova-crysta-beach-py01",
+      title: "Toyota Innova Crysta (PY 01 DD 3799)",
+      category: "fleet",
+      categoryLabel: "Fleet & Chauffeur",
+      image: "/images/gallery/innova-beach-py01.jpg",
+      tag: "PY 01 DD 3799",
+      location: "Pondicherry Coastline",
+      vehicleName: "Toyota Innova Crysta",
+      description: "Our executive white Toyota Innova Crysta parked along the scenic coastal shore of Pondicherry."
+    },
+    {
+      id: "innova-crysta-silver-py05",
+      title: "Toyota Innova Crysta (PY 05 E 1979)",
+      category: "fleet",
+      categoryLabel: "Fleet & Chauffeur",
+      image: "/images/gallery/innova-silver-py05.png",
+      tag: "PY 05 E 1979",
+      location: "Pondicherry Tour Circuit",
+      vehicleName: "Toyota Innova Crysta",
+      description: "Premium silver Toyota Innova Crysta ready for comfortable family vacations and executive travels."
+    },
+    {
+      id: "innova-silver-outstation",
+      title: "Innova Crysta Highway & Nature Circuit",
+      category: "tours",
+      categoryLabel: "Outstation Tours",
+      image: "/images/gallery/innova-silver-roadside.png",
+      tag: "Outstation Ready",
+      location: "Tamil Nadu Scenic Highway",
+      vehicleName: "Toyota Innova Crysta",
+      description: "Fully equipped for long distance journeys across South India, temple circuits, and hill stations."
+    },
+    {
+      id: "tempo-traveller-fleet",
+      title: "Suba Tours Tempo Traveller 12-20 Seater",
+      category: "fleet",
+      categoryLabel: "Group Tour Coach",
+      image: "/images/tempo-traveller.jpg",
+      tag: "12 - 20 Seater",
+      location: "Pondicherry & South India",
+      vehicleName: "Tempo Traveller",
+      description: "Spacious luxury pushback seating, powerful AC, and ample luggage boot for family pilgrimages and corporate trips."
+    },
+    {
+      id: "toyota-etios-sedan",
+      title: "Toyota Etios Commercial Sedan",
+      category: "fleet",
+      categoryLabel: "Sedan & Airport Taxi",
+      image: "/images/toyota-etios.png",
+      tag: "4 Seater + Large Boot",
+      location: "Pondicherry & Chennai Airport",
+      vehicleName: "Toyota Etios",
+      description: "Economical, smooth, and dependable sedan for city commutes, airport transfers, and couple getaways."
+    },
+    {
+      id: "maruti-swift-dzire",
+      title: "Maruti Suzuki Swift Dzire",
+      category: "fleet",
+      categoryLabel: "Sedan & Sightseeing",
+      image: "/images/swift-dzire.jpg",
+      tag: "Comfort Sedan",
+      location: "Pondicherry Sightseeing",
+      vehicleName: "Maruti Swift Dzire",
+      description: "Clean, fuel-efficient, and AC-chilled sedan for comfortable local and outstation drives."
+    },
+    {
+      id: "hyundai-creta-selfdrive",
+      title: "Hyundai Creta Self-Drive SUV",
+      category: "self-drive",
+      categoryLabel: "Self-Drive Fleet",
+      image: "/images/hyundai-creta.png",
+      tag: "Self Drive SUV",
+      location: "Pondicherry",
+      vehicleName: "Hyundai Creta",
+      description: "Modern, high ground clearance, premium SUV for flexible self-exploration."
+    },
+    {
+      id: "hyundai-i20-selfdrive",
+      title: "Hyundai i20 Self-Drive Hatchback",
+      category: "self-drive",
+      categoryLabel: "Self-Drive Fleet",
+      image: "/images/hyundai-i20.png",
+      tag: "Self Drive Hatchback",
+      location: "Pondicherry",
+      vehicleName: "Hyundai i20",
+      description: "Sporty, nimble, and perfect for navigating the cozy streets of White Town and coastal highways."
+    },
+    {
+      id: "promenade-beach-pillars",
+      title: "Promenade Beach Seaside Heritage",
+      category: "attractions",
+      categoryLabel: "Pondicherry Sights",
+      image: "/images/promenade-beach.png",
+      tag: "Promenade Beach",
+      location: "Goubert Avenue, Pondicherry",
+      destinationName: "Promenade Beach",
+      description: "The iconic coastal pillars and ocean view overlooking the Bay of Bengal along Goubert Avenue."
+    },
+    {
+      id: "white-town-heritage",
+      title: "White Town French Colonial Architecture",
+      category: "attractions",
+      categoryLabel: "Heritage Quarter",
+      image: "/images/white-town-french-quarter.png",
+      tag: "French Quarter",
+      location: "White Town, Pondicherry",
+      destinationName: "White Town / French Quarter",
+      description: "Vibrant mustard-yellow French colonial mansions, bougainvillea blossoms, and chic cafes."
+    },
+    {
+      id: "auroville-matrimandir",
+      title: "Auroville Matrimandir Golden Sphere",
+      category: "attractions",
+      categoryLabel: "Spiritual Heritage",
+      image: "/images/auroville-matrimandir.png",
+      tag: "Auroville",
+      location: "Auroville, Pondicherry",
+      destinationName: "Auroville Matrimandir",
+      description: "The world-famous golden sphere of peace, meditation, and architectural brilliance in the universal township of Auroville."
+    },
+    {
+      id: "paradise-beach-chunnambar",
+      title: "Paradise Beach & Chunnambar Backwaters",
+      category: "attractions",
+      categoryLabel: "Beach & Boat Ride",
+      image: "/images/paradise-beach.png",
+      tag: "Paradise Beach",
+      location: "Chunnambar, Pondicherry",
+      destinationName: "Paradise Beach",
+      description: "Pristine golden sands reached via scenic boat rides through backwaters and mangrove lagoons."
+    },
+    {
+      id: "rock-beach-pier",
+      title: "Rock Beach Pier at Twilight",
+      category: "attractions",
+      categoryLabel: "Coastal Scenic",
+      image: "/images/rock-beach.jpg",
+      tag: "Rock Beach Pier",
+      location: "Rock Beach, Pondicherry",
+      destinationName: "Rock Beach",
+      description: "Breathtaking evening ocean waves crashing against coastal rocks with peaceful sea breeze."
+    },
+    {
+      id: "auroville-beach-shore",
+      title: "Auroville Beach & Serenity Shoreline",
+      category: "attractions",
+      categoryLabel: "Beaches & Relaxation",
+      image: "/images/auroville-beach.jpg",
+      tag: "Auroville Beach",
+      location: "ECR, Pondicherry",
+      destinationName: "Auroville Beach",
+      description: "Quiet sandy shores and gentle waves along the East Coast Road."
     }
   ]
 };

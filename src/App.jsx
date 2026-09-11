@@ -15,6 +15,7 @@ import VehiclesPage from './pages/VehiclesPage';
 import SelfDrivePage from './pages/SelfDrivePage';
 import PondicherryPage from './pages/PondicherryPage';
 import AboutPage from './pages/AboutPage';
+import GalleryPage from './pages/GalleryPage';
 
 import { siteConfig } from './config/site';
 
@@ -25,6 +26,7 @@ export default function App() {
       if (path.includes('self-drive')) return 'self-drive';
       if (path.includes('vehicles')) return 'vehicles';
       if (path.includes('pondicherry') || path.includes('sightseeing')) return 'pondicherry';
+      if (path.includes('gallery')) return 'gallery';
       if (path.includes('about')) return 'about';
     }
     return 'home';
@@ -42,6 +44,7 @@ export default function App() {
     if (currentPage === 'vehicles') seoData = siteConfig.seo.vehicles;
     else if (currentPage === 'self-drive') seoData = siteConfig.seo.selfDrive;
     else if (currentPage === 'pondicherry') seoData = siteConfig.seo.destinations;
+    else if (currentPage === 'gallery') seoData = siteConfig.seo.gallery;
     else if (currentPage === 'about') seoData = siteConfig.seo.about;
 
     if (seoData) {
@@ -55,6 +58,7 @@ export default function App() {
       if (path.includes('self-drive')) setCurrentPage('self-drive');
       else if (path.includes('vehicles')) setCurrentPage('vehicles');
       else if (path.includes('pondicherry') || path.includes('sightseeing')) setCurrentPage('pondicherry');
+      else if (path.includes('gallery')) setCurrentPage('gallery');
       else if (path.includes('about')) setCurrentPage('about');
       else setCurrentPage('home');
     };
@@ -114,6 +118,13 @@ export default function App() {
 
         {currentPage === 'about' && (
           <AboutPage onOpenEnquiry={handleOpenEnquiry} />
+        )}
+
+        {currentPage === 'gallery' && (
+          <GalleryPage
+            onOpenEnquiry={handleOpenEnquiry}
+            onNavigate={handleNavigate}
+          />
         )}
 
         {currentPage === 'home' && (
